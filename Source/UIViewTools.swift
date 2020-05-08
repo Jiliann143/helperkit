@@ -8,6 +8,8 @@
 
 import UIKit
 
+fileprivate let ANIMATION_DURATION:TimeInterval = 0.211
+
 public extension UIView {
     
     @IBInspectable var cornerRadius: CGFloat {
@@ -39,19 +41,19 @@ public extension UIView {
     }
     
     func showAnimated() {
-        UIView.animate(withDuration: 0.3) {
+        UIView.animate(withDuration: ANIMATION_DURATION) {
             self.isHidden = false
         }
     }
     
     func hideAnimated() {
-        UIView.animate(withDuration: 0.3) {
+        UIView.animate(withDuration: ANIMATION_DURATION) {
             self.isHidden = true
         }
     }
     
     func rotateView(_ angle: CGFloat) {
-        UIView.animate(withDuration: 0.4) {
+        UIView.animate(withDuration: ANIMATION_DURATION) {
             self.transform = CGAffineTransform(rotationAngle: angle * .pi / 180)
         }
     }
