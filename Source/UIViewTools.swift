@@ -37,4 +37,22 @@ public extension UIView {
     func removeAllSubviews() {
         subviews.forEach { $0.removeFromSuperview() }
     }
+    
+    func showAnimated() {
+        UIView.animate(withDuration: 0.3) {
+            self.isHidden = false
+        }
+    }
+    
+    func hideAnimated() {
+        UIView.animate(withDuration: 0.3) {
+            self.isHidden = true
+        }
+    }
+    
+    func rotateView(_ angle: CGFloat) {
+        UIView.animate(withDuration: 0.4) {
+            self.transform = CGAffineTransform(rotationAngle: angle * .pi / 180)
+        }
+    }
 }

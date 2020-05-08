@@ -13,6 +13,8 @@
 		A3D0046424644A94006B39AA /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045E24644A94006B39AA /* InsetLabel.swift */; };
 		A3D0046524644A94006B39AA /* UICollectionViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045F24644A94006B39AA /* UICollectionViewTools.swift */; };
 		A3D0046624644A94006B39AA /* UITableViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0046024644A94006B39AA /* UITableViewTools.swift */; };
+		A3E0E2A12465A5870044A073 /* DynamicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */; };
+		A3E0E2A32465A87A0044A073 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0E2A22465A87A0044A073 /* UIScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A3D0045E24644A94006B39AA /* InsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
 		A3D0045F24644A94006B39AA /* UICollectionViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewTools.swift; sourceTree = "<group>"; };
 		A3D0046024644A94006B39AA /* UITableViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewTools.swift; sourceTree = "<group>"; };
+		A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionView.swift; sourceTree = "<group>"; };
+		A3E0E2A22465A87A0044A073 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				A3D0045D24644A94006B39AA /* UIComponents */,
 				A3D0045F24644A94006B39AA /* UICollectionViewTools.swift */,
 				A3D0046024644A94006B39AA /* UITableViewTools.swift */,
+				A3E0E2A22465A87A0044A073 /* UIScreen.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A3D0045E24644A94006B39AA /* InsetLabel.swift */,
+				A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 				A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */,
 				A3D0046424644A94006B39AA /* InsetLabel.swift in Sources */,
 				A3D0046324644A94006B39AA /* UIViewTools.swift in Sources */,
+				A3E0E2A12465A5870044A073 /* DynamicCollectionView.swift in Sources */,
 				A3D0046524644A94006B39AA /* UICollectionViewTools.swift in Sources */,
+				A3E0E2A32465A87A0044A073 /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
