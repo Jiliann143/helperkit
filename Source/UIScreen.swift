@@ -8,14 +8,15 @@
 
 import UIKit
 
-struct Screen {
-    static var width: CGFloat {
+public struct Screen {
+    
+    public static var width: CGFloat {
         return UIScreen.main.bounds.width
     }
-    static var height: CGFloat {
+    public static var height: CGFloat {
         return UIScreen.main.bounds.height
     }
-    static var statusBarHeight: CGFloat {
+    public static var statusBarHeight: CGFloat {
         if #available(iOS 13.0, *) {
             return UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 20
         } else {
