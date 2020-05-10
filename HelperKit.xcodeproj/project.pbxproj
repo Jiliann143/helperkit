@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35C703E246821E100B57632 /* DynamicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703D246821E100B57632 /* DynamicTableView.swift */; };
 		A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */; };
 		A3D0046224644A94006B39AA /* UIViewControllerTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045B24644A94006B39AA /* UIViewControllerTools.swift */; };
 		A3D0046324644A94006B39AA /* UIViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045C24644A94006B39AA /* UIViewTools.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A35C703D246821E100B57632 /* DynamicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableView.swift; sourceTree = "<group>"; };
 		A3D0044E24644A5D006B39AA /* HelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D0045224644A5D006B39AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewTools.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				A3D0045E24644A94006B39AA /* InsetLabel.swift */,
 				A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */,
+				A35C703D246821E100B57632 /* DynamicTableView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C703E246821E100B57632 /* DynamicTableView.swift in Sources */,
 				A3D0046224644A94006B39AA /* UIViewControllerTools.swift in Sources */,
 				A3D0046624644A94006B39AA /* UITableViewTools.swift in Sources */,
 				A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */,
@@ -318,7 +322,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.HelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -344,7 +348,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.HelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
