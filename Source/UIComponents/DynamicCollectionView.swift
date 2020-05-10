@@ -8,14 +8,14 @@
 
 import UIKit
 
-public class DynamicCollectionView: UICollectionView {
+open class DynamicCollectionView: UICollectionView {
     
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         self.invalidateIntrinsicContentSize()
     }
     
-    public override var intrinsicContentSize: CGSize {
+    open override var intrinsicContentSize: CGSize {
         let contentSize = self.collectionViewLayout.collectionViewContentSize
         return contentSize
     }
