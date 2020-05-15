@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A35C703E246821E100B57632 /* DynamicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703D246821E100B57632 /* DynamicTableView.swift */; };
+		A3A1DF97246AE89F00F7D0B0 /* GestureRecognizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */; };
 		A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */; };
 		A3D0046224644A94006B39AA /* UIViewControllerTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045B24644A94006B39AA /* UIViewControllerTools.swift */; };
 		A3D0046324644A94006B39AA /* UIViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045C24644A94006B39AA /* UIViewTools.swift */; };
@@ -16,10 +17,12 @@
 		A3D0046624644A94006B39AA /* UITableViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0046024644A94006B39AA /* UITableViewTools.swift */; };
 		A3E0E2A12465A5870044A073 /* DynamicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */; };
 		A3E0E2A32465A87A0044A073 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0E2A22465A87A0044A073 /* UIScreen.swift */; };
+		A3E837F6246ED3390040057B /* UIImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E837F5246ED3390040057B /* UIImageTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A35C703D246821E100B57632 /* DynamicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableView.swift; sourceTree = "<group>"; };
+		A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizers.swift; sourceTree = "<group>"; };
 		A3D0044E24644A5D006B39AA /* HelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D0045224644A5D006B39AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewTools.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		A3D0046024644A94006B39AA /* UITableViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewTools.swift; sourceTree = "<group>"; };
 		A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionView.swift; sourceTree = "<group>"; };
 		A3E0E2A22465A87A0044A073 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		A3E837F5246ED3390040057B /* UIImageTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 				A3D0045F24644A94006B39AA /* UICollectionViewTools.swift */,
 				A3D0046024644A94006B39AA /* UITableViewTools.swift */,
 				A3E0E2A22465A87A0044A073 /* UIScreen.swift */,
+				A3E837F5246ED3390040057B /* UIImageTools.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				A3D0045E24644A94006B39AA /* InsetLabel.swift */,
 				A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */,
 				A35C703D246821E100B57632 /* DynamicTableView.swift */,
+				A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 				A3D0046624644A94006B39AA /* UITableViewTools.swift in Sources */,
 				A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */,
 				A3D0046424644A94006B39AA /* InsetLabel.swift in Sources */,
+				A3A1DF97246AE89F00F7D0B0 /* GestureRecognizers.swift in Sources */,
+				A3E837F6246ED3390040057B /* UIImageTools.swift in Sources */,
 				A3D0046324644A94006B39AA /* UIViewTools.swift in Sources */,
 				A3E0E2A12465A5870044A073 /* DynamicCollectionView.swift in Sources */,
 				A3D0046524644A94006B39AA /* UICollectionViewTools.swift in Sources */,
@@ -322,7 +330,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.HelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -348,7 +356,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.5;
+				MARKETING_VERSION = 1.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = yuliaNovikova.HelperKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

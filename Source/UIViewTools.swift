@@ -8,7 +8,7 @@
 
 import UIKit
 
-fileprivate let ANIMATION_DURATION:TimeInterval = 0.211
+fileprivate let animationDuration:TimeInterval = 0.25
 
 public extension UIView {
     
@@ -41,19 +41,19 @@ public extension UIView {
     }
     
     func showAnimated() {
-        UIView.animate(withDuration: ANIMATION_DURATION) {
+        UIView.animate(withDuration: animationDuration) {
             self.isHidden = false
         }
     }
     
     func hideAnimated() {
-        UIView.animate(withDuration: ANIMATION_DURATION) {
+        UIView.animate(withDuration: animationDuration) {
             self.isHidden = true
         }
     }
     
     func rotateView(_ angle: CGFloat) {
-        UIView.animate(withDuration: ANIMATION_DURATION) {
+        UIView.animate(withDuration: animationDuration) {
             self.transform = CGAffineTransform(rotationAngle: angle * .pi / 180)
         }
     }
