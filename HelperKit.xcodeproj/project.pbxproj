@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31F39A5249BBAC800B43984 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F39A4249BBAC800B43984 /* BackButton.swift */; };
 		A35C703E246821E100B57632 /* DynamicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C703D246821E100B57632 /* DynamicTableView.swift */; };
+		A3916BFE24F6B9A3004BF1AE /* IBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916BFD24F6B9A3004BF1AE /* IBDesignableView.swift */; };
+		A3916C0024F6BA11004BF1AE /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916BFF24F6BA11004BF1AE /* PlaceholderTextView.swift */; };
+		A3916C0224F6BAC7004BF1AE /* UIAlertController+TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0124F6BAC7004BF1AE /* UIAlertController+TextField.swift */; };
+		A3916C0424F6BB14004BF1AE /* HighlightTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0324F6BB14004BF1AE /* HighlightTapView.swift */; };
+		A3916C0624F6BBA7004BF1AE /* CustomizableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0524F6BBA7004BF1AE /* CustomizableSlider.swift */; };
+		A3916C0824F6BE4A004BF1AE /* UIColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0724F6BE4A004BF1AE /* UIColorTools.swift */; };
+		A3916C0A24F6C0A9004BF1AE /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C0924F6C0A9004BF1AE /* LoadingButton.swift */; };
+		A3916C1224F6C341004BF1AE /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3916C1124F6C341004BF1AE /* Haptics.swift */; };
 		A3A1DF97246AE89F00F7D0B0 /* GestureRecognizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */; };
 		A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */; };
 		A3D0046224644A94006B39AA /* UIViewControllerTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0045B24644A94006B39AA /* UIViewControllerTools.swift */; };
@@ -21,7 +30,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31F39A4249BBAC800B43984 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		A35C703D246821E100B57632 /* DynamicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableView.swift; sourceTree = "<group>"; };
+		A3916BFD24F6B9A3004BF1AE /* IBDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableView.swift; sourceTree = "<group>"; };
+		A3916BFF24F6BA11004BF1AE /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		A3916C0124F6BAC7004BF1AE /* UIAlertController+TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+TextField.swift"; sourceTree = "<group>"; };
+		A3916C0324F6BB14004BF1AE /* HighlightTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightTapView.swift; sourceTree = "<group>"; };
+		A3916C0524F6BBA7004BF1AE /* CustomizableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableSlider.swift; sourceTree = "<group>"; };
+		A3916C0724F6BE4A004BF1AE /* UIColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTools.swift; sourceTree = "<group>"; };
+		A3916C0924F6C0A9004BF1AE /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		A3916C1124F6C341004BF1AE /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 		A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizers.swift; sourceTree = "<group>"; };
 		A3D0044E24644A5D006B39AA /* HelperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D0045224644A5D006B39AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,12 +95,14 @@
 			children = (
 				A3D0045A24644A94006B39AA /* UIScrollViewTools.swift */,
 				A3D0045B24644A94006B39AA /* UIViewControllerTools.swift */,
+				A3916C0724F6BE4A004BF1AE /* UIColorTools.swift */,
 				A3D0045C24644A94006B39AA /* UIViewTools.swift */,
 				A3D0045D24644A94006B39AA /* UIComponents */,
 				A3D0045F24644A94006B39AA /* UICollectionViewTools.swift */,
 				A3D0046024644A94006B39AA /* UITableViewTools.swift */,
 				A3E0E2A22465A87A0044A073 /* UIScreen.swift */,
 				A3E837F5246ED3390040057B /* UIImageTools.swift */,
+				A3916C1124F6C341004BF1AE /* Haptics.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -94,6 +114,13 @@
 				A3E0E2A02465A5870044A073 /* DynamicCollectionView.swift */,
 				A35C703D246821E100B57632 /* DynamicTableView.swift */,
 				A3A1DF96246AE89F00F7D0B0 /* GestureRecognizers.swift */,
+				A31F39A4249BBAC800B43984 /* BackButton.swift */,
+				A3916BFD24F6B9A3004BF1AE /* IBDesignableView.swift */,
+				A3916BFF24F6BA11004BF1AE /* PlaceholderTextView.swift */,
+				A3916C0124F6BAC7004BF1AE /* UIAlertController+TextField.swift */,
+				A3916C0324F6BB14004BF1AE /* HighlightTapView.swift */,
+				A3916C0524F6BBA7004BF1AE /* CustomizableSlider.swift */,
+				A3916C0924F6C0A9004BF1AE /* LoadingButton.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -178,15 +205,24 @@
 			files = (
 				A35C703E246821E100B57632 /* DynamicTableView.swift in Sources */,
 				A3D0046224644A94006B39AA /* UIViewControllerTools.swift in Sources */,
+				A3916C0A24F6C0A9004BF1AE /* LoadingButton.swift in Sources */,
 				A3D0046624644A94006B39AA /* UITableViewTools.swift in Sources */,
 				A3D0046124644A94006B39AA /* UIScrollViewTools.swift in Sources */,
+				A3916BFE24F6B9A3004BF1AE /* IBDesignableView.swift in Sources */,
 				A3D0046424644A94006B39AA /* InsetLabel.swift in Sources */,
 				A3A1DF97246AE89F00F7D0B0 /* GestureRecognizers.swift in Sources */,
+				A3916C0624F6BBA7004BF1AE /* CustomizableSlider.swift in Sources */,
 				A3E837F6246ED3390040057B /* UIImageTools.swift in Sources */,
+				A3916C0824F6BE4A004BF1AE /* UIColorTools.swift in Sources */,
 				A3D0046324644A94006B39AA /* UIViewTools.swift in Sources */,
+				A3916C1224F6C341004BF1AE /* Haptics.swift in Sources */,
+				A3916C0424F6BB14004BF1AE /* HighlightTapView.swift in Sources */,
+				A31F39A5249BBAC800B43984 /* BackButton.swift in Sources */,
 				A3E0E2A12465A5870044A073 /* DynamicCollectionView.swift in Sources */,
 				A3D0046524644A94006B39AA /* UICollectionViewTools.swift in Sources */,
+				A3916C0224F6BAC7004BF1AE /* UIAlertController+TextField.swift in Sources */,
 				A3E0E2A32465A87A0044A073 /* UIScreen.swift in Sources */,
+				A3916C0024F6BA11004BF1AE /* PlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
