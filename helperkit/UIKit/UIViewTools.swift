@@ -12,6 +12,14 @@ fileprivate let animationDuration:TimeInterval = 0.25
 
 public extension UIView {
     
+    func snapshot() -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(bounds.size, false, UIScreen.main.scale)
+        drawHierarchy(in: bounds, afterScreenUpdates: true)
+        let result = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return result!
+    }
+    
     @IBInspectable var cornerRadius: CGFloat {
         set { clipsToBounds = true; layer.cornerRadius = newValue }
         get { return layer.cornerRadius }
