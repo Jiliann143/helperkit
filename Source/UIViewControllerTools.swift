@@ -35,3 +35,45 @@ public extension UIViewController {
         navigationController?.popToRootViewController(animated: animated)
     }
 }
+
+public extension UIViewController {
+    
+    func test() {
+        
+    }
+    
+    class func instantiate(_ name: String = "Main") -> Self {
+        return instantiateFromStoryboardHelper(name)
+    }
+    
+    fileprivate class func instantiateFromStoryboardHelper<T>(_ name: String) -> T {
+        let storyboard = UIStoryboard(name: name, bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: String(describing: self)) as! T
+        return controller
+    }
+    
+}
+
+public var topmostController: UIViewController {
+    
+    var topController = UIApplication.shared.keyWindow?.rootViewController;
+    
+    while topController?.presentedViewController != nil {
+        topController = topController?.presentedViewController;
+    }
+    
+    guard let controller = topController
+        else { return UIViewController() }
+    
+    return controller
+}
+
+public var keyWindow: UIView {
+    
+    guard let _window = UIApplication.shared.delegate?.window,
+        let window = _window
+        else { return UIView() }
+    
+    return window
+}
+
