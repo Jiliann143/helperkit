@@ -56,7 +56,7 @@ public extension UIViewController {
 
 public var topmostController: UIViewController {
     
-    var topController = UIApplication.shared.keyWindow?.rootViewController;
+    var topController = UIApplication.shared.windows.first(where: \.isKeyWindow)?.rootViewController
     
     while topController?.presentedViewController != nil {
         topController = topController?.presentedViewController;
