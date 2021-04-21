@@ -7,19 +7,19 @@
 
 import UIKit
 
-public class LoadingView {
+public class HUD {
 
     internal static var spinner: UIActivityIndicatorView?
 
     public static func show() {
         DispatchQueue.main.async {
             NotificationCenter.default.addObserver(self, selector: #selector(update), name: UIDevice.orientationDidChangeNotification, object: nil)
-            if spinner == nil, let window = UIApplication.shared.windows.first(where: \.isKeyWindow) {
+            if spinner == nil {
                 let frame = UIScreen.main.bounds
                 let spinner = UIActivityIndicatorView(frame: frame)
                 spinner.backgroundColor = UIColor.black.withAlphaComponent(0.2)
                 spinner.style = UIActivityIndicatorView.Style.large
-                window.addSubview(spinner)
+                keyWindow.addSubview(spinner)
 
                 spinner.startAnimating()
                 self.spinner = spinner
