@@ -19,6 +19,7 @@ public class HUD {
                 let spinner = UIActivityIndicatorView(frame: frame)
                 spinner.backgroundColor = UIColor.black.withAlphaComponent(0.2)
                 spinner.style = UIActivityIndicatorView.Style.large
+                spinner.color = .white
                 keyWindow.addSubview(spinner)
 
                 spinner.startAnimating()
